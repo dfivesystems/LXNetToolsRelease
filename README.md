@@ -1,3 +1,9 @@
 # LXNetTools Releases
 
-This is the release repository for LXNetTools. The current release version is 2.0
+This is the release repository for LXNetTools.
+
+
+## Current Release
+
+
+## Previous Releases
