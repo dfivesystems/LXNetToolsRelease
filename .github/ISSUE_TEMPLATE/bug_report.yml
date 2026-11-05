@@ -1,0 +1,38 @@
+name: Bug report
+description: Something in LXNetTools is wrong or not working
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting. Screenshots of the affected panel and the alert log help a lot.
+  - type: input
+    id: version
+    attributes:
+      label: LXNetTools version
+      placeholder: e.g. 1.2.0
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: e.g. Windows 11, macOS 15, Ubuntu 24.04
+    validations:
+      required: true
+  - type: input
+    id: protocols
+    attributes:
+      label: Protocols involved
+      placeholder: Art-Net, sACN, MA-Net2, RDMnet, LLRP, RDM
+  - type: textarea
+    id: details
+    attributes:
+      label: What happened, and what did you expect?
+      description: Steps to reproduce, the devices and consoles involved, and anything in the alert log.
+    validations:
+      required: true
+  - type: textarea
+    id: network
+    attributes:
+      label: Network setup
+      description: Optional. Interfaces selected in LXNetTools, switches, VLANs, multicast/IGMP settings.

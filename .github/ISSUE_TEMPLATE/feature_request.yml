@@ -1,0 +1,21 @@
+name: Feature request
+description: Suggest an idea or improvement for LXNetTools
+labels: ["enhancement"]
+body:
+  - type: input
+    id: protocols
+    attributes:
+      label: Protocols involved
+      placeholder: Art-Net, sACN, MA-Net2, RDMnet, LLRP, RDM
+  - type: textarea
+    id: details
+    attributes:
+      label: What would you like it to do, and why?
+      description: Describe the problem it would solve on your shows.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: How do you handle this today?
+      description: Optional. Other tools or workarounds you use.
